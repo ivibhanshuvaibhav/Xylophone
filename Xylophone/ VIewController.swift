@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate {
+class ViewController: UIViewController {
     
     var audioPlayer : AVAudioPlayer!
     
@@ -33,9 +33,5 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     }
     
-    func hello(hi: String){
-        print(hi)
-    }
-
 }
 
